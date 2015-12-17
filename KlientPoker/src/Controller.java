@@ -120,7 +120,7 @@ public class Controller {
 		View.itemOgrze.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				String wiadomosc="Java Poker \n Version 1.0 \n \nGame Created by Philolypse & Marold";
+				String wiadomosc="Java Poker \n Version 1.0 ";
 				View.userInfoMassage1(wiadomosc);
 				
 			}
