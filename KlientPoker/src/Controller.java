@@ -111,7 +111,7 @@ public class Controller {
 		View.itemZasady.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				String wiadomosc="Zasady Gry Poker \n Dostajesz 2 karty do reki \n nastepne beda sie pojawiac na stole	\n Umiejetna ocena kart moga zagwarantowac sukces \n Mozliwe Uklady (od najnizszego) :\n 1: Najwyzsza Karta\n 2: Para\n 3: Dwie Pary\n 4: Trojka\n 5: Strit\n 6: Kolor\n 7: Full\n 8: Kareta\n 9: Poker\n po wiecej informacji o ukladach odwiedz odpowiednia strone np. na Wikipedii :)\n\n ";
+				String wiadomosc="Zasady Gry Poker \n Dostajesz 2 karty do reki \n nastepne beda sie pojawiac na stole	\n Umiejetna ocena kart moze zagwarantowac sukces \n Mozliwe Uklady (od najnizszego) :\n 1: Najwyzsza Karta\n 2: Para\n 3: Dwie Pary\n 4: Trojka\n 5: Strit\n 6: Kolor\n 7: Full\n 8: Kareta\n 9: Poker\n po wiecej informacji o ukladach odwiedz odpowiednia strone np. na Wikipedii :)\n\n ";
 				View.userInfoMassage1(wiadomosc);
 				
 			}

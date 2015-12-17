@@ -123,22 +123,22 @@ public class View extends JFrame {
 		this.ileraise.setBounds(720, 460, 60, 32);
 		this.add(ilebet);
 		this.ilebet.setBounds(720, 540, 60, 32);
-		this.zetony.setBounds(190, 540, 200, 32);
-		this.zetony2.setBounds(200, 540, 150, 32);
+		this.zetony.setBounds(100, 260, 200, 32);
+		this.zetony2.setBounds(110, 260, 150, 32);
 		this.zetony2.setHorizontalAlignment(SwingConstants.RIGHT);
 		this.zetony2.setForeground(Color.RED);
-		this.wyniki.setBounds(20, 370, 550, 250);
+		this.wyniki.setBounds(20, 370, 550, 310);
 		this.Adres_IP.setBounds(20, 325, 300, 30);
 		this.etykieta2.setBounds(360, 17, 92, 32);
 		this.etykieta3.setBounds(650, 250, 92, 32);
 	
 		
 		
-		this.karty2[0].setBounds(40, 80, 140, 100);
-		this.karty2[1].setBounds(180, 80, 140, 100);
-		this.karty2[2].setBounds(320, 80, 140, 100);
-		this.karty2[3].setBounds(460, 80, 140, 100);
-		this.karty2[4].setBounds(600, 80, 140, 100);
+		this.karty2[0].setBounds(40, 90, 140, 100);
+		this.karty2[1].setBounds(180, 90, 140, 100);
+		this.karty2[2].setBounds(320, 90, 140, 100);
+		this.karty2[3].setBounds(460, 90, 140, 100);
+		this.karty2[4].setBounds(600, 90, 140, 100);
 		
 		///// karty gracza////
 		this.karty1[0].setBounds(560, 290, 140, 100);
