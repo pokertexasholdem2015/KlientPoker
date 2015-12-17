@@ -147,12 +147,12 @@ public class View extends JFrame {
 		this.Adres_IP.setBackground(new Color(238,59,59)); // 238;59;59
 		
 		this.wyniki.setEditable(false);
-		this.wyniki.setBackground(Color.BLACK);
+		this.wyniki.setBackground(new Color(80, 200, 60));
 		this.wyniki.setContentType("text/html");
 		this.wyniki.putClientProperty(JEditorPane.HONOR_DISPLAY_PROPERTIES, true);
 		Font foncik = new Font("Tahoma", Font.BOLD, 15);
 		this.wyniki.setFont(foncik);
-		this.wyniki.setForeground(Color.red);
+		this.wyniki.setForeground(Color.BLACK);
 		this.add(MenuBar);
 		this.setBackground(Color.DARK_GRAY);
 		MenuBar.add(menuPlik);
