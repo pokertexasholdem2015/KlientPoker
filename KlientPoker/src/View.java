@@ -82,7 +82,7 @@ public class View extends JFrame {
 		this.setJMenuBar(MenuBar);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setSize(800, 750);
-		this.setTitle("AWWWWWesome Java Poker");
+		this.setTitle("Texas Holdem Java Poker - very gamble, much wow");
 		this.setLayout(null);
 		this.add(etykieta2);
 		this.add(etykieta3);

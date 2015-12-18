@@ -6,14 +6,8 @@ import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.ArrayList;
-/*
- *do poprawy:
 
-* nextStepGame
-* roz��czenie gracza (klient)
-* przycisk check dla gracza
-* wylanianie zwyciezcy 
- */
+
 
 
 public class Controller { 
@@ -179,38 +173,49 @@ public class Controller {
 		if(Model.polaczenie){
 			if(state == 1)
 			{
-				/// empty so far;
+				// Musi dzialac zawsze po rundzie - Wyswietlanie kolejnych kart na stole 
+				
+				//Model.wyslijDane("Stolpokazkarty ");
+			
+				// Empty 
+			
 			}
 			else if(state == 2)
 			{
 				Model.wyslijDane("allin ");
 				Model.wyslijDane("pokazzetony ");
-				//Model.wyslijDane("pokazkarty ");
+			
+				Model.wyslijDane("Stolpokazkarty ");
 			}
 			else if(state == 3)
 			{
 				Model.wyslijDane("bet "+param);
 				Model.wyslijDane("pokazzetony ");
+				Model.wyslijDane("Stolpokazkarty ");
 			}
 			else if(state == 4)
 			{
 				Model.wyslijDane("raise "+param);
 				Model.wyslijDane("pokazzetony ");
+				Model.wyslijDane("Stolpokazkarty ");
 			}
 			else if(state == 5)
 			{
 				Model.wyslijDane("fold ");
 				Model.wyslijDane("pokazzetony ");
+				Model.wyslijDane("Stolpokazkarty ");
 			}
 			else if(state == 6)
 			{
 				Model.wyslijDane("check ");
-				//Model.wyslijDane("pokazzetony ");
+				
+				Model.wyslijDane("Stolpokazkarty ");
 			}
 			else if(state == 7)
 			{
 				Model.wyslijDane("call ");
 				Model.wyslijDane("pokazzetony ");
+				Model.wyslijDane("Stolpokazkarty ");
 			}
 		}
 		if(state == 10)
@@ -258,9 +263,14 @@ public class Controller {
 							{
 								if(dane_do_odczytania.startsWith("CMD START"))
 								{
+									
 									Model.wyslijDane("pokazkarty ");
 									Model.wyslijDane("pokazzetony ");
 									Model.wyslijDane("pokazstat ");
+								}
+								else if(dane_do_odczytania.startsWith("CMD START2"))
+								{
+									Model.wyslijDane("Stolpokazkarty");
 								}
 							}
 							else if(dane_do_odczytania.startsWith("STA"))
